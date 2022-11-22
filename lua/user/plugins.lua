@@ -46,6 +46,7 @@ return packer.startup(function(use)
   use { "nvim-tree/nvim-tree.lua", commit = "68a2a09" }
   use { "akinsho/bufferline.nvim", tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons' }
   use { "moll/vim-bbye", commit = "25ef93a" }
+  use { "lukas-reineke/indent-blankline.nvim", commit = "db7cbcb" }
 
   -- Colorschemes
   use { "folke/tokyonight.nvim", commit = "62b4e89" }
