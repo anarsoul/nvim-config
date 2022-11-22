@@ -47,6 +47,7 @@ return packer.startup(function(use)
   use { "akinsho/bufferline.nvim", tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons' } -- Nice buffer line on top
   use { "moll/vim-bbye", commit = "25ef93a" } -- Provides Bdelete command
   use { "lukas-reineke/indent-blankline.nvim", commit = "db7cbcb" } -- Provides indent lines
+  use { "nvim-lualine/lualine.nvim", commit = "3325d5d" }
 
   -- Colorschemes
   use { "folke/tokyonight.nvim", commit = "62b4e89" }
