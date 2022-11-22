@@ -42,6 +42,7 @@ packer.init {
 return packer.startup(function(use)
   -- My plugins here
   use { "wbthomason/packer.nvim", commit = "6afb674" } -- Have packer manage itself
+  use { "nvim-lua/plenary.nvim", commit = "4b7e520" }
   use { "nvim-tree/nvim-web-devicons", commit = "3b1b794" }
   use { "nvim-tree/nvim-tree.lua", commit = "68a2a09" }
   use { "akinsho/bufferline.nvim", tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons' } -- Nice buffer line on top
@@ -68,8 +69,8 @@ return packer.startup(function(use)
   --use { "RRethy/vim-illuminate", commit = "c82e6d04f27a41d7fdcad9be0bce5bb59fcb78e5" }
   --use { "simrat39/rust-tools.nvim", commit = "11dcd674781ba68a951ab4c7b740553cae8fe671"}
 
-  ---- Telescope
-  --use { "nvim-telescope/telescope.nvim", commit = "d96eaa914aab6cfc4adccb34af421bdd496468b0" }
+  -- Telescope
+  use { "nvim-telescope/telescope.nvim", commit = "7a4ffef" }
 
   ---- Treesitter
   use { "nvim-treesitter/nvim-treesitter", commit = "4f07518" } -- Advanced syntax highlighting
