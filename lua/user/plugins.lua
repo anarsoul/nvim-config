@@ -50,6 +50,7 @@ return packer.startup(function(use)
   use { "lukas-reineke/indent-blankline.nvim", commit = "db7cbcb" } -- Provides indent lines
   use { "nvim-lualine/lualine.nvim", commit = "3325d5d" }
   use { "Darazaki/indent-o-matic", commit = "749b7cb" } -- Detect indent style (tabs/spaces/3/4/8) automatically
+  use { "lewis6991/impatient.nvim", commit = "d3dd30f" }
 
   -- Colorschemes
   use { "folke/tokyonight.nvim", commit = "62b4e89" }
