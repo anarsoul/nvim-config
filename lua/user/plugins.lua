@@ -71,7 +71,7 @@ return packer.startup(function(use)
   --use { "nvim-telescope/telescope.nvim", commit = "d96eaa914aab6cfc4adccb34af421bdd496468b0" }
 
   ---- Treesitter
-  --use { "nvim-treesitter/nvim-treesitter", commit = "518e27589c0463af15463c9d675c65e464efc2fe" }
+  use { "nvim-treesitter/nvim-treesitter", commit = "4f07518" }
 
   use { "Darazaki/indent-o-matic", commit = "749b7cb" }
 
