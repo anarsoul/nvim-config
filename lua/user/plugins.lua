@@ -49,6 +49,7 @@ return packer.startup(function(use)
   use { "moll/vim-bbye", commit = "25ef93a" } -- Provides Bdelete command
   use { "lukas-reineke/indent-blankline.nvim", commit = "db7cbcb" } -- Provides indent lines
   use { "nvim-lualine/lualine.nvim", commit = "3325d5d" }
+  use { "Darazaki/indent-o-matic", commit = "749b7cb" } -- Detect indent style (tabs/spaces/3/4/8) automatically
 
   -- Colorschemes
   use { "folke/tokyonight.nvim", commit = "62b4e89" }
@@ -72,10 +73,8 @@ return packer.startup(function(use)
   -- Telescope
   use { "nvim-telescope/telescope.nvim", commit = "7a4ffef" }
 
-  ---- Treesitter
+  -- Treesitter
   use { "nvim-treesitter/nvim-treesitter", commit = "4f07518" } -- Advanced syntax highlighting
-
-  use { "Darazaki/indent-o-matic", commit = "749b7cb" } -- Detect indent style (tabs/spaces/3/4/8) automatically
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
