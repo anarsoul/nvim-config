@@ -44,9 +44,9 @@ return packer.startup(function(use)
   use { "wbthomason/packer.nvim", commit = "6afb674" } -- Have packer manage itself
   use { "nvim-tree/nvim-web-devicons", commit = "3b1b794" }
   use { "nvim-tree/nvim-tree.lua", commit = "68a2a09" }
-  use { "akinsho/bufferline.nvim", tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons' }
-  use { "moll/vim-bbye", commit = "25ef93a" }
-  use { "lukas-reineke/indent-blankline.nvim", commit = "db7cbcb" }
+  use { "akinsho/bufferline.nvim", tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons' } -- Nice buffer line on top
+  use { "moll/vim-bbye", commit = "25ef93a" } -- Provides Bdelete command
+  use { "lukas-reineke/indent-blankline.nvim", commit = "db7cbcb" } -- Provides indent lines
 
   -- Colorschemes
   use { "folke/tokyonight.nvim", commit = "62b4e89" }
@@ -71,9 +71,9 @@ return packer.startup(function(use)
   --use { "nvim-telescope/telescope.nvim", commit = "d96eaa914aab6cfc4adccb34af421bdd496468b0" }
 
   ---- Treesitter
-  use { "nvim-treesitter/nvim-treesitter", commit = "4f07518" }
+  use { "nvim-treesitter/nvim-treesitter", commit = "4f07518" } -- Advanced syntax highlighting
 
-  use { "Darazaki/indent-o-matic", commit = "749b7cb" }
+  use { "Darazaki/indent-o-matic", commit = "749b7cb" } -- Detect indent style (tabs/spaces/3/4/8) automatically
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
