@@ -51,6 +51,7 @@ return packer.startup(function(use)
   use { "nvim-lualine/lualine.nvim", commit = "3325d5d" }
   use { "Darazaki/indent-o-matic", commit = "749b7cb" } -- Detect indent style (tabs/spaces/3/4/8) automatically
   use { "lewis6991/impatient.nvim", commit = "d3dd30f" }
+  use { "akinsho/toggleterm.nvim", commit = "3ba6838" }
 
   -- Colorschemes
   use { "folke/tokyonight.nvim", commit = "62b4e89" }
