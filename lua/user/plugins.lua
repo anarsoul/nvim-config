@@ -52,6 +52,7 @@ return packer.startup(function(use)
   use { "Darazaki/indent-o-matic", commit = "749b7cb" } -- Detect indent style (tabs/spaces/3/4/8) automatically
   use { "lewis6991/impatient.nvim", commit = "d3dd30f" } -- Speeds up nvim startup
   use { "akinsho/toggleterm.nvim", commit = "3ba6838" } -- Terminal, try ctrl+\
+  use { "folke/which-key.nvim", commit = "61553ae" }
 
   -- Colorschemes
   use { "folke/tokyonight.nvim", commit = "62b4e89" }
