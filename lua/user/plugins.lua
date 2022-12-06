@@ -53,6 +53,7 @@ return packer.startup(function(use)
   use { "lewis6991/impatient.nvim", commit = "d3dd30f" } -- Speeds up nvim startup
   use { "akinsho/toggleterm.nvim", commit = "3ba6838" } -- Terminal, try ctrl+\
   use { "folke/which-key.nvim", commit = "61553ae" }
+  use { "windwp/nvim-autopairs", commit = "99f6963" }
 
   -- Colorschemes
   use { "folke/tokyonight.nvim", commit = "62b4e89" }
